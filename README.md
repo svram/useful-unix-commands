@@ -16,3 +16,8 @@ say -v ?
  ```bash
  say -v Alex --r=150 hello sir
  ```
+ 
+ - Ping a remote host
+ ```bash
+ ping www.HOSTNAME.COM
+ ```
