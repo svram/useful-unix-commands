@@ -21,3 +21,12 @@ say -v ?
  ```bash
  ping www.HOSTNAME.COM
  ```
+ 
+ - How long is the HOST up
+ ```
+uptime
+```
+
+Sample Output of ```uptime```:
+
+```11:50  up 6 days, 21:41, 4 users, load averages: 3.20 15.22 11.69```
