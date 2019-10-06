@@ -5,7 +5,7 @@
 ```bash
 grep -rnw /path/to/dir -e 'pattern_string_to_match'
 ```
-
+------
 - Let the Terminal speak
 
 ```bash
@@ -16,12 +16,12 @@ say -v ?
  ```bash
  say -v Alex --r=150 hello sir
  ```
- 
+ ------
  - Ping a remote host
  ```bash
  ping www.HOSTNAME.COM
  ```
- 
+ ------
  - How long is the HOST up
  ```
 uptime
@@ -30,6 +30,8 @@ uptime
 Sample Output of ```uptime```:
 
 ```11:50  up 6 days, 21:41, 4 users, load averages: 3.20 15.22 11.69```
+
+------
 
 - Check disk usage of a directory
 ```
@@ -41,3 +43,4 @@ Sample output of ```du```:
 
 This means that my documents folder has occupied 678 MB of space on disk
 
+------
