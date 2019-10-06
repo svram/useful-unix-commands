@@ -30,3 +30,14 @@ uptime
 Sample Output of ```uptime```:
 
 ```11:50  up 6 days, 21:41, 4 users, load averages: 3.20 15.22 11.69```
+
+- Check disk usage of a directory
+```
+du -sh /path/to/directory
+```
+
+Sample output of ```du```:
+```678M	/Users/HOSTNAME/Documents/```
+
+This means that my documents folder has occupied 678 MB of space on disk
+
