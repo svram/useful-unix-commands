@@ -16,12 +16,16 @@ say -v ?
  ```bash
  say -v Alex --r=150 hello sir
  ```
+ 
  ------
+ 
  - Ping a remote host
  ```bash
  ping www.HOSTNAME.COM
  ```
- ------
+
+------
+
  - How long is the HOST up
  ```
 uptime
@@ -44,3 +48,12 @@ Sample output of ```du```:
 This means that my documents folder has occupied 678 MB of space on disk
 
 ------
+
+- Check the weather in any city
+
+```
+curl http://wttr.in/LOCATION
+```
+
+Enter your city name in ```LOCATION```
+
