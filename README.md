@@ -1,12 +1,12 @@
 #### Collection of useful unix commands and tool I've used over the years for work and projects
 
-- Search for a pattern string in a directory
+- *Search for a pattern string in a directory*
 
 ```bash
 grep -rnw /path/to/dir -e 'pattern_string_to_match'
 ```
 ------
-- Let the Terminal speak
+- *Let the Terminal speak*
 
 ```bash
 say -v ?
@@ -19,14 +19,14 @@ say -v ?
  
  ------
  
- - Ping a remote host
+ - *Ping a remote host*
  ```bash
  ping www.HOSTNAME.COM
  ```
 
 ------
 
- - How long is the HOST up
+ - *How long is the HOST up*
  ```
 uptime
 ```
@@ -37,7 +37,7 @@ Sample Output of ```uptime```:
 
 ------
 
-- Check disk usage of a directory
+- *Check disk usage of a directory*
 ```
 du -sh /path/to/directory
 ```
@@ -49,7 +49,7 @@ This means that my documents folder has occupied 678 MB of space on disk
 
 ------
 
-- Check the weather in any city
+- *Check the weather in any city*
 
 ```
 curl http://wttr.in/LOCATION
@@ -59,7 +59,7 @@ Enter your city name in ```LOCATION```
 
 ------
 
-- Download a file from the internet
+- *Download a file from the internet*
 
 We can use ```wget``` for this. Do a ```brew install wget``` on macOS or ```apt-get install wget``` on Linux
 
