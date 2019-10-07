@@ -57,3 +57,29 @@ curl http://wttr.in/LOCATION
 
 Enter your city name in ```LOCATION```
 
+------
+
+- Download a file from the internet
+
+We can use ```wget``` for this. Do a ```brew install wget``` on macOS or ```apt-get install wget``` on Linux
+
+```wget -O windows-security.pdf https://d1.awsstatic.com/whitepapers/aws-microsoft-platform-security.pdf```
+
+The command above downloads the pdf file at the URL resource, renames it and saves it in the current directory.
+
+Sample Output:
+
+Resolving d1.awsstatic.com (d1.awsstatic.com)... 13.225.6.181
+Connecting to d1.awsstatic.com (d1.awsstatic.com)|13.225.6.181|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1221064 (1.2M) [application/pdf]
+Saving to: ‘windows-security.pdf’
+
+windows-security.pdf                       100%[======================================================================================>]   1.16M   885KB/s    in 1.3s    
+
+2019-10-07 12:10:42 (885 KB/s) - ‘windows-security.pdf’ saved [1221064/1221064]
+
+------
+
+
+
